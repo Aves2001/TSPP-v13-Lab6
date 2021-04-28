@@ -5,6 +5,10 @@ using System.Linq;
 
 namespace Lab6.Task2
 {
+    /// <summary>
+    /// Батьківський (базовий) клас: 
+    /// <see langword="Музичний гурт"/>
+    /// </summary>
     public abstract class MusicBand
     {
         private static string file_name = "dbase.txt";
@@ -114,6 +118,10 @@ namespace Lab6.Task2
         }
         ////////////////////////////////////////////////////////////////////////////////
 
+        /// <summary>
+        /// Запис у файл колекцію гастрольних поїздок
+        /// </summary>
+        /// <param name="x"> Колекція гастрольних поїздок </param>
         public static void Output(List<TouringTrip> x)
         {
             using StreamWriter f = new StreamWriter(FILE_NAME);
@@ -128,7 +136,6 @@ namespace Lab6.Task2
             }
             f.Close(); // закриття файла
         }
-
         public static void Output(TouringTrip x)
         {
             using StreamWriter f = new StreamWriter(FILE_NAME, true);

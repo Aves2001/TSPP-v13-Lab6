@@ -2,6 +2,11 @@
 
 namespace Lab6.Task2
 {
+    /// <summary>
+    /// Інтерфейс з методами:
+    /// <seealso cref="CitySearch"/>
+    /// та <seealso cref="MaximumNumberConcerts"/>
+    /// </summary>
     internal interface ITouringTrip
     {
         /// <summary>

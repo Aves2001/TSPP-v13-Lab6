@@ -4,6 +4,12 @@ using System.Linq;
 
 namespace Lab6.Task2
 {
+    /// <summary>
+    /// Похідний клас від: 
+    /// <seealso cref="MusicBand"/> 
+    /// та інтерфейса: 
+    /// <seealso cref="ITouringTrip"/> 
+    /// </summary>
     public class TouringTrip : MusicBand, ITouringTrip
     {
         private string city, year, numberOfConcerts;

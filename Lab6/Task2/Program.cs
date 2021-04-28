@@ -5,6 +5,10 @@ namespace Lab6.Task2
 {
     class Program
     {
+        /// <summary>
+        /// Головне меню другого завдання
+        /// </summary>
+        /// <param name="FILE"></param>
         public void Main(string FILE)
         {
             char x = (char)ConsoleKey.Escape; // для збереження натиснутої клавіші
